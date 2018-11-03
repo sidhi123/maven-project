@@ -212,7 +212,13 @@
     <tag>HEAD</tag>
     <url>http://github.com/prakashk0301/maven-project</url>
   </scm>
-
+    <distributionmanagement>
+         <Repository>
+           <id>releases</id>
+           <name>Releases</name>
+           <url>http://13.57.183.11:8081/nexus/content/repositories/releases/</url>
+         </Repository>
+   </distributionmanagement>
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
